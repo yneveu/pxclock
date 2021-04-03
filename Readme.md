@@ -36,3 +36,8 @@ Mqtt server address is hardcoded for now... You can also specify mqtt user/passw
 Initially, clock was French only, i just added quick translation to let you get in in English. It's as simple as change include in source code: include switch_hour_en.h or include switch_hour_fr.h. Of course it would be nice to add some languages....
 
 
+![clock](images/IMG_20210403_122242.jpg?raw=true)
+
+![clock](images/IMG_20210403_122518.jpg?raw=true)
+
+![dancing banana](images/IMG_20210403_122332.jpg?raw=true)
