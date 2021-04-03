@@ -105,7 +105,7 @@ String sminute;
       sminute = "eight";
       break;
     case 9:
-      sminute = "night";
+      sminute = "nine";
       break;
     case 10:
       sminute = "ten";      
