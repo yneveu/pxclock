@@ -4,7 +4,7 @@
 
 #include <PubSubClient.h> 
 #include "banana.h"
-#include <Time.h>
+#include <TimeLib.h>
 
 #include <ArduinoJson.h>
 #include <StreamUtils.h>
@@ -18,7 +18,6 @@
 #include "timeSync.h"
 #include "dashboard.h"
 
-#include <TetrisMatrixDraw.h>
 
 
 
@@ -43,7 +42,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 PxMATRIX display(64,32,P_LAT, P_OE,P_A,P_B,P_C,P_D);
-TetrisMatrixDraw tetris(display); //Pass it into the library
+//TetrisMatrixDraw tetris(display); //Pass it into the library
 
 // Some standard colors
 uint16_t myRED = display.color565(255, 0, 0);
@@ -417,7 +416,7 @@ void loop() {
   
 
   String shour;
-  #include "switch_hour_en.h"
+  #include "switch_hour_fr.h"
 
 
   display.setCursor(0,0);
